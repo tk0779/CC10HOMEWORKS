@@ -1,8 +1,8 @@
 # CC10HOMEWORKS
 ================
-This repository is a part of CodeCamp10 Homeworks
+<p> This repository is a part of CodeCamp10 Homeworks </p>
 
-Homework listed by subjects
+<h2>Homework listed by subjects</h2>
 1- HTML
 2- CSS
 3- Javascript
