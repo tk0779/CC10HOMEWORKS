@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NatTK-CC10-Friends</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: serif  ;
+        }
+
+        .header {
+            background-color:#96939B;
+            color: white;
+            text-align:center;
+            margin-top:0px;
+            padding:5px;
+        }
+        h1 a {
+            text-decoration: none;
+            color: white;
+        }
+        h1 a:visited {
+            text-decoration: none;
+            color: white;
+        }
+        /* .header :hover {
+            color:#FC814A;
+            
+        } */
+
+        body{
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        h2 {
+            color: ;
+        }
+        .menu {
+            float: left;
+            width: 20%;
+            text-align: center;
+        }
+
+        .menu :hover {
+            background-color: rgb(35, 168, 124);
+            color: white;
+        }
+        
+        .menu a {
+            background-color: #e5e5e5;
+            padding: 8px;
+            margin-top: 7px;
+            display: block;
+            width: 100%;
+            color: #564256;
+        }
+        
+        .content {
+            background-color: white;
+            float: left;
+            margin-top: 7px;
+            width: 60%;
+            padding: 0 20px;
+            color: #564256;
+        }
+
+
+        .content a:hover {
+            color:#FC814A;
+        }
+
+        table {
+            /* border: #564256 1px solid; */
+            width: 100%;
+            margin: auto;
+        }
+        tr  {
+            height: 1.8em;
+            font-weight: lighter;
+        }
+        th  {
+            text-align: left;
+            padding-left: 30px;
+        }
+
+        .th1 {
+            width: 25%;
+        }
+        .th2 {
+            width: 75%;
+        }
+     
+        
+        
+        .sidebar {
+            display: block;
+            float: left;
+            width: 20%;
+            background-color: #e5e5e5;
+            color: #564256;
+            text-align: center;
+            padding: 4px;
+            margin-top: 7px;
+            padding-bottom: 50px;
+        }
+
+        .foot {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color:#96939B;
+            color: white;
+            text-align:center;
+            padding:10px;
+            margin-top:7px;
+        }
+        
+        @media only screen and (max-width: 620px) {
+          /* For mobile phones: */
+          .menu, .content, .sidebar {
+            width: 100%;
+          }
+          .foot {
+              bottom: 0px;
+              display: flex;
+
+          }
+        }
+        /* these are animation  */
+        .element {
+            height: 80px;
+            width: 80px;
+            background-color: red;
+            animation: 
+                pulse 3s ease infinite alternate, 
+                nudge 5s linear infinite alternate;
+            border-radius: 100%;
+        }
+
+        @keyframes pulse {
+        0%, 100% {
+            background-color: rgb(19, 94, 94);
+        }
+        50% {
+            background-color: aqua;
+        }
+        }
+
+        @keyframes nudge {
+            0%, 100% {
+                transform: translate(0, 0);
+             }
+        
+            50% {
+                transform: translate(1000px, 0);
+            }
+        
+            80% {
+                transform: translate(-150px, 0);
+            }
+        }
+        /* end of css ball animation */
+
+        </style>
+</head>
+
+<body>
+    <div class="header">
+            <h1><a href="./index.html">NatTK Homework Page</a></h1>
+      </div>
+      <div class="element"> </div>
+        <div class="menu">
+            <a href="./index.html">Home</a>
+            <a href="https://getcodecamp.com/" target="_blank">CodeCamp10</a>
+            <a href="./profile.html">Profile</a>
+            <a href="./friends.html">Friends</a>
+        </div>
+      
+        <div class="content">
+            <h2>Tiranat Kamklai Profile Page</h2>
+            <p> This is  a part of CodeCamp10 homework </p>
+            
+            <table>
+                <!-- -------- -->
+
+                <tr>
+                        <th class = "th1">
+                             Info.
+                        </th>
+                        <th class = "th2">
+                           Detail
+                        </th>
+                      
+                </tr>
+                <!-- -------- -->
+                <tr>
+                        <th class = "th1">
+                            Fullname
+                        </th>
+                        <th class = "th2">
+                            Tiranat Kamklai
+                        </th>
+                        
+                </tr>
+                <!-- -------- -->
+                <tr>
+                        <th class = "th1">
+                            Career
+                        </th>
+                        <th class = "th2">
+                            Architect / Designer
+                        </th>
+                       
+                </tr>
+                <!-- -------- -->
+                <tr>
+                        <th class = "th1">
+                            Skill - Expert
+                        </th>
+                        <th class = "th2">
+                            <br>
+                            Architectural Design
+                            <br>3D modeling (SketchUp)
+                            <br>AutoCAD
+                            <br>PhotoShop in Architectural Visualization
+                            <br>Handsketch
+                        </th>
+                        
+                </tr>
+                <!-- -------- -->
+                <tr>
+                        <th class = "th1">
+                            Skill - Intermediate
+                        </th>
+                        <th class = "th2">
+                            <br>
+                            Lumion Rendering
+                            <br>VRAY Rendering 
+                            <br> Roblox Studio (3D Modeling and Lua Scripting)
+                            <br>UX/UI Design
+
+                        </th>
+                    
+                </tr>
+                <!-- -------- -->
+                <tr>
+                        <th class = "th1">
+                            Skill - Beginner
+                        </th>
+                        <th class = "th2">
+                            <br>
+
+                            Fullstack Developer 
+                            <br>(HTML/CSS/JS, React frontend and Node Backend)
+                            <br>Unity 2D and 3D gaming
+                        </th>
+                    
+                </tr>
+                <!-- -------- -->
+                <tr>
+                        <th class = "th1">
+                            <br>
+                            Extra-Curricular Activity 
+                        </th>
+                        <th class = "th2">
+                            <br>
+                            Music Composer
+                        </th>
+                     
+                </tr>
+                <!-- -------- -->
+                <tr>
+                        <th class = "th1">
+                            <br>
+                            Hobbies
+                            <br>
+
+                        </th>
+                        <th class = "th2">
+                            <br>
+                            Game Playing, Game Making
+                            <br>
+                        </th>
+                     
+                </tr>
+                    <!-- -------- -->
+                    <tr>
+                        <th class = "th1">
+                            <br>
+                            Contact
+                            <br><br>
+
+                        </th>
+                        <th class = "th2">
+                            <br>
+                            <a href = "https://www.linkedin.com/in/tiranat-kamklai-51a4b951/" target = "_blank"> 
+                                Tiranat Kamklai LinkedIn </a>
+                                <br>Discord: TK0779#8443
+                            <br><br>
+                        </th>
+                     
+                </tr>
+                
+            </table>
+            
+                
+        </div>
+      
+        <div class="sidebar">
+          <h3>About</h3>
+          <p>This simple HTML page is a part of CodeCamp 10 Homework of Nat - Tiranat Kamklai</p>
+        </div>
+        <div class = "foot">
+            This is a fixed footer, position: fixed and bottom:0. It locates here forever.
+        </div>
+</body>
+
+
+
+</html>

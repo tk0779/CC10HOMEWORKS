@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- This page is a part of CodeCamp10 Homework : HTML LAB3 -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lab3 - HTML Homework</title>
+
+    <!-- add style tag in head part to use CSS in HTML file -->
+    <style>
+        h1 {
+            margin: auto;
+            margin-top: 20px;
+            text-align: center;
+        }
+        table {
+            border: 1px solid black;
+            margin: auto;
+            text-align: left;
+            margin-top :50px;
+
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid black;
+            text-align: left;    
+        }  
+    </style>
+</head>
+
+<body>
+    <!-- This is where the form is sent to -->
+    <form action = "http://jkorpela.fi/cgi-bin/echo.cgi">
+
+    <h1> Thai Foods Takeaway</h1>
+    <table>
+        <tr>
+            <th colspan="3" style="text-align: center;">Select Your Thai Meal!</th>
+        </tr>
+        <tr>
+            <th>User</th>
+            <th>
+                <input type="text"  name="user">
+            </th>
+        </tr>
+
+        <tr>
+            <th>Phone Number</th>
+            <th>
+                <input type="text" name="phoneNumber">
+            </th>
+        </tr>
+
+        <tr>
+            <th>Select Curry Topping</th>
+            <th>
+                <input type="radio" name="GreenCurry"> 
+                <label">Green Curry with Chicken</label><br>
+                <input type="radio" name="RedCurry">
+                <label>Red Curry with Chicken</label><br>
+                <input type="radio" name="Vegetable">
+                <label>Green Curry with Vegetable</label>
+            </th>
+        </tr>
+
+        <tr>
+            <th>Carb Choice</th>
+            <th>
+                <select id="CarbChoice" name="CarbChoice">
+                    <option value="BrownRice">Brown Rice</option>
+                    <option value="WhiteRice">White Rice</option>
+                    <option value="WhiteNoodles">White Noodles</option>
+                    <option value="SmallNoodles">Small Noodles</option>
+                  </select>
+            </th>
+        </tr>
+
+        <tr>
+            <th>Optional Extras</th>
+            <th>
+                <input type="checkbox" name="ExtraChicken">
+                <label >Extra Chicken</label>
+                <input type="checkbox" name="GlutenFree">
+                <label >Gulten Free</label>
+            </th>
+        </tr>
+
+        <tr>
+            <th colspan="2">
+                <label>Delivery Instructions:</label><br>
+                <textarea name="delivery" role="5" cols="60" ></textarea>
+            </th>
+        </tr>
+
+        <tr>
+            <th colspan="2">
+                <input type="submit" value="Send my Order">
+            </th>
+        </tr>
+    </table>
+</body>
+</html>
