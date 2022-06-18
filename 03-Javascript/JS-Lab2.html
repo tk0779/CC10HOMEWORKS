@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Lab2</title>
+
+</head>
+<body>
+    <!--Library: font-awesome -->
+    <script src="https://kit.fontawesome.com/78505eb46b.js" 
+    crossorigin="anonymous"></script> 
+
+    <!-- Library : Jquery -->
+    <script src = '//cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+
+    <script>
+        $(document).ready(function(){
+            $('button').click(function(){
+                $("p").hide()
+            });
+        });
+        $(document).ready(function(){
+            $('#ShowText').click(function(){
+                $("p").show()
+            });
+        });
+    </script>
+    <h2>Lab2 : Import external Javascript Library to this HTML file.</h2>
+    <h2>import library font-awesome and jQuery</h2>
+    
+    <p>Hello, this text is from p tag. The jQuery Library that just imported into this HTML is used.</p>
+    <p>You can try clicking the button below to hide and show this p tag text.</p>
+    
+    <button>Click me to hide texts from tag p</button>
+    <button id="ShowText">Click me to Show texts from tag p</button>
+    
+    <br>
+    <br>
+    <p>The icons below come from the font-awesome library that also imported.</p>
+    <span style="font-size: 3em; color: Tomato;">
+        <i class="fas fa-camera"></i>
+      </span>
+    
+      <span style="font-size: 48px; color: Dodgerblue;">
+        <i class="fas fa-camera"></i>
+      </span>
+    
+      <span style="font-size: 3rem;">
+        <span style="color: Mediumslateblue;">
+        <i class="fas fa-camera"></i>
+        </span>
+      </span>
+</body>
+</html>

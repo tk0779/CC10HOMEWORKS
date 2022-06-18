@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS changeColor</title>
+
+    <style>
+        .red {
+            color: red;
+            background-color: black;
+        }
+        .yellow {
+            color: yellow;
+            background-color: black;
+        }
+        .redrec {
+            fill: red;
+            stroke-width:3;
+            stroke:rgb(0,0,0)
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1> The Document Object</h1>
+    <h2>The createAttribute() and setAttributeNode() Methods</h2>
+    
+    <p>Click "Color Button" to create a class attribute to the tag p texts</p>
+
+    <button onclick="clicktoRed()">Red</button>
+    <button onclick="clicktoYellow()">Yellow</button>
+
+    <p>Click "Color Button" to create a class attribute to the Div</p>
+
+    <button onclick="clickRedRec()">RedRect</button>
+    <button onclick="clickYellowRec()">YellowRect</button>
+
+    <div>
+        <svg width="400" height="400">
+            <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+        </svg>
+    </div>
+
+    <script>
+        function clicktoRed() {
+        // Create a class attribute:
+        const att = document.createAttribute("class");
+        
+        // Set a value of the class attribute
+        att.value = 'red';
+        
+        // Add the class attribute to the first h1;
+        document.getElementsByTagName("p")[0].setAttributeNode(att);
+        };
+        
+        function clicktoYellow() {
+        const att1 = document.createAttribute("class");
+        att1.value = 'yellow';
+        document.getElementsByTagName("p")[0].setAttributeNode(att1);
+        }
+
+        function clickRedRec() {
+        const att2 = document.createAttribute("class");
+        att2.value = 'redrec';
+        document.getElementsByTagName("div")[0].setAttributeNode(att2);
+        }
+        </script>
+</body>
+</html>
