@@ -1,12 +1,16 @@
-CodeCamp#10 : HTML Homework
+#CodeCamp#10 : HTML Homework
 ====================
-Student Name: Tiranat Kamklai
+<p>Student Name: Tiranat Kamklai
+<br/><br/>
+HTML Booking Form <br/>
+https://htmlpreview.github.io/?https://github.com/tk0779/CC10HOMEWORKS/blob/main/01-HTML/booking.html <br/><br/>
 
 การบ้าน (Wed, 17 Nov 2021)
-
-ให้ทุกคน register กับ codesandbox.io เพื่อส่งการบ้าน 
-  - สร้าง 1 sandbox ต่อ 1 การบ้าน (เลือก static html5)
-  *** ส่งโดยใช้ link ตามที่ codesandbox สร้างให้ 
+<br/>
+ให้ทุกคน register กับ codesandbox.io เพื่อส่งการบ้าน <br/>
+  - สร้าง 1 sandbox ต่อ 1 การบ้าน (เลือก static html5)<br/>
+  *** ส่งโดยใช้ link ตามที่ codesandbox สร้างให้ <br/>
+  </p>
 ------------------------------------------------------------------ 
 การบ้าน HTML  2 ข้อ
 
@@ -17,9 +21,6 @@ Student Name: Tiranat Kamklai
 ลิงค์ส่งการบ้าน
 https://uxyi8l.csb.app/index.html
 ------------------------------------------------------------------ 
-
-
-
 
 1 - Homework1
 -----------
