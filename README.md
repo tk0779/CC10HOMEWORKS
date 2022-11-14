@@ -13,5 +13,3 @@
   <li>Sequelize</li>
   <li>Authentication</li>
 </ol>
-
-# CC10HOMEWORKS-1
