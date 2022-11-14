@@ -6,14 +6,14 @@
 <h2>Homework listed by subjects</h2>
 <ol>
   <li>HTML</li>
-  <li>CSS</li>
+  <li><a href = #css> CSS</a></li>
   <li>Javascript</li>
   <li>React</li>
   <li>Database</li>
   <li>Sequelize</li>
   <li>Authentication</li>
 </ol>
-<h2>CSS Homework</h2>
+<h2 id=css>CSS Homework</h2>
 
 <br/>
 Challenge1 - Form <br/>
