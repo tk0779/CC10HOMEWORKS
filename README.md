@@ -13,8 +13,8 @@
   <li>Sequelize</li>
   <li>Authentication</li>
 </ol>
-#CSS Homework
-============
+<h2>CSS Homework</h2>
+
 <br/>
 Challenge1 - Form <br/>
 https://htmlpreview.github.io/?https://github.com/tk0779/CC10HOMEWORKS/blob/main/02-CSS/challenge1.html <br/><br/>
