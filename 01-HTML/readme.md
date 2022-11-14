@@ -1,4 +1,4 @@
-#CodeCamp#10 : HTML Homework
+**CodeCamp#10 : HTML Homework**
 ====================
 <p>Student Name: Tiranat Kamklai
 <br/><br/>
@@ -18,8 +18,7 @@ https://htmlpreview.github.io/?https://github.com/tk0779/CC10HOMEWORKS/blob/main
 	- เขียนคำถาม + คำตอบในรูปแบบ html 
 2. ทำ Landing Page
 ------------------------------------------------------------------ 
-ลิงค์ส่งการบ้าน
-https://uxyi8l.csb.app/index.html
+ลิงค์ส่งการบ้าน https://uxyi8l.csb.app/index.html
 ------------------------------------------------------------------ 
 
 1 - Homework1
